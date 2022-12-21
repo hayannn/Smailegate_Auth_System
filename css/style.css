@@ -1,0 +1,247 @@
+#navBar {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  background-color: #1c1c1c;
+}
+.navBarCon {
+  display: flex;
+  align-items: center;
+  max-width: 2000px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navBarleft {
+  font-family: "Paytone One", sans-serif;
+  display: flex;
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+  width: 100%;
+}
+
+a:link,
+a:visited {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: black;
+}
+.navBarRight {
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Paytone One", sans-serif;
+  color: #f2f2f2;
+  width: 50%;
+  font-size: 15px;
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 250px;
+  padding-right: 10px;
+}
+.navBarLast {
+  width: 40%;
+  height: 50%;
+  background-color: #1c1c1c;
+  border: 0px;
+}
+.navBarLogin {
+  width: 100%;
+  font-size: 15px;
+  text-align: right;
+  padding: 0px;
+}
+.mainCon {
+  width: 80%;
+  height: 800px;
+  margin: auto;
+}
+.registerTitle {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.registerTable {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.registerTable tr {
+  height: 40px;
+}
+
+.registerTable td {
+  padding-top: 7px;
+}
+.registerSubmit {
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.loginTitle {
+  width: 22%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.loginForm {
+  width: 22%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 25px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.loginId {
+  margin-top: 10px;
+  text-align: right;
+}
+.loginPw {
+  margin-top: 5px;
+  text-align: right;
+}
+
+.loginButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.updateTitle {
+  width: 22%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 45px;
+}
+.updateTable {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.updateTable tr {
+  height: 40px;
+}
+
+.updateTable td {
+  padding-top: 7px;
+}
+.updateSubmit {
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.updateBtn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.updateId {
+  margin-top: 10px;
+  text-align: right;
+}
+.updatePw1 {
+  margin-top: 5px;
+  text-align: right;
+}
+.updatePw2 {
+  margin-top: 5px;
+  text-align: right;
+}
+.updateTel {
+  margin-top: 10px;
+  text-align: right;
+}
+.updateEmail {
+  margin-top: 10px;
+  text-align: right;
+}
+.findIdPw {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+
+.findEmail {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.findBtn {
+  margin-top: 10px;
+  text-align: center;
+}
+.findMenu {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.changePw {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.loginButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.registerAndFind {
+  width: 22%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.registerAndFind a:link,
+.registerAndFind a:visited {
+  color: black;
+}
+
+.helloUser {
+  color: white;
+  width: 100%;
+}
+
+.outAndUpdate {
+  color: gray;
+  margin-top: 5px;
+  font-size: 16px;
+}
