@@ -1,4 +1,4 @@
-# Smailegate_Auth_System
+# Smailegate_Auth_System(이하얀)
 
 ## 개요
 |서비스||
