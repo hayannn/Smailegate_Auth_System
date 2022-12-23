@@ -375,7 +375,12 @@ session_start();
    ```
 ## 작동 화면
 - 현재 완성된 인증시스템 화면입니다.
-https://user-images.githubusercontent.com/102213509/208898405-57128a6e-87ae-4fee-9cab-480b61d254a1.mp4
+
+
+https://user-images.githubusercontent.com/102213509/209325039-25eb4de7-4e42-46b1-ac88-1703a36e965b.mp4
+
+
+
 ## 코드 중 확인받고 싶은 부분
 ### 로그인 중복 여부 확인 부분이 먹통이 되는 이유를 알고 싶습니다.
 - 관련 파일 : register.php, checkId.php
